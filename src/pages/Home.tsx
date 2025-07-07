@@ -20,8 +20,12 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-block mb-6">
-              <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary to-primary-glow flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-                HP
+              <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-lg border-4 border-primary/20">
+                <img 
+                  src="/photo_6293865004662901169_y.jpg" 
+                  alt="Harshit Panchal"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             

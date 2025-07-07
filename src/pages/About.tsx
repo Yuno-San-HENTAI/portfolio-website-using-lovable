@@ -84,12 +84,16 @@ const About = () => {
             </Card>
           </div>
 
-          {/* Profile Image Placeholder */}
+          {/* Profile Image */}
           <div className="lg:col-span-1">
             <Card className="card-hover">
               <CardContent className="p-8 text-center">
-                <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-primary to-primary-glow flex items-center justify-center text-white text-6xl font-bold shadow-lg mb-6">
-                  HP
+                <div className="w-48 h-48 mx-auto rounded-full overflow-hidden shadow-lg mb-6 border-4 border-primary/20">
+                  <img 
+                    src="/photo_6293865004662901169_y.jpg" 
+                    alt="Harshit Panchal"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Harshit Panchal</h3>
                 <p className="text-muted-foreground mb-4">AI/ML Enthusiast</p>
