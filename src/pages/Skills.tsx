@@ -5,14 +5,14 @@ import { Code, Brain, Users, Zap, MessageCircle, Trophy } from 'lucide-react';
 
 const Skills = () => {
   const technicalSkills = [
-    { name: 'Python', level: 85, category: 'Programming', description: 'ML/AI development, data analysis, scripting' },
-    { name: 'Machine Learning', level: 80, category: 'AI/ML', description: 'Scikit-learn, model training, evaluation' },
-    { name: 'Data Analysis', level: 75, category: 'AI/ML', description: 'Pandas, NumPy, statistical analysis' },
-    { name: 'JavaScript', level: 70, category: 'Web Dev', description: 'Frontend development, web applications' },
-    { name: 'HTML/CSS', level: 85, category: 'Web Dev', description: 'Responsive design, modern layouts' },
-    { name: 'Blockchain', level: 65, category: 'Emerging Tech', description: 'Algorand, decentralized applications' },
-    { name: 'Supabase', level: 70, category: 'Backend', description: 'Database management, authentication' },
-    { name: 'Git/Version Control', level: 75, category: 'Tools', description: 'Code collaboration, project management' }
+    { name: 'Python', level: 60, category: 'Programming', description: 'ML/AI development, data analysis, scripting' },
+    { name: 'Machine Learning', level: 60, category: 'AI/ML', description: 'Scikit-learn, model training, evaluation' },
+    { name: 'Data Analysis', level: 60, category: 'AI/ML', description: 'Pandas, NumPy, statistical analysis' },
+    { name: 'JavaScript', level: 60, category: 'Web Dev', description: 'Frontend development, web applications' },
+    { name: 'HTML/CSS', level: 60, category: 'Web Dev', description: 'Responsive design, modern layouts' },
+    { name: 'Blockchain', level: 60, category: 'Emerging Tech', description: 'Algorand, decentralized applications' },
+    { name: 'Supabase', level: 60, category: 'Backend', description: 'Database management, authentication' },
+    { name: 'Git/Version Control', level: 60, category: 'Tools', description: 'Code collaboration, project management' }
   ];
 
   const softSkills = [
@@ -60,11 +60,11 @@ const Skills = () => {
   ];
 
   const tools = [
-    { name: 'MS Office', category: 'Productivity', level: 90 },
-    { name: 'Jupyter Notebook', category: 'Development', level: 80 },
-    { name: 'VS Code', category: 'Development', level: 85 },
-    { name: 'Netlify', category: 'Deployment', level: 75 },
-    { name: 'GitHub', category: 'Version Control', level: 80 }
+    { name: 'MS Office', category: 'Productivity', level: 60 },
+    { name: 'Jupyter Notebook', category: 'Development', level: 60 },
+    { name: 'VS Code', category: 'Development', level: 60 },
+    { name: 'Netlify', category: 'Deployment', level: 60 },
+    { name: 'GitHub', category: 'Version Control', level: 60 }
   ];
 
   const getCategoryColor = (category: string) => {
