@@ -4,6 +4,15 @@ import { ArrowRight, Download, MapPin, Phone, Mail, Github } from 'lucide-react'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+  const handleResumeDownload = () => {
+    // Convert Google Drive view link to direct download link
+    const driveFileId = '1gUlvLKRCppWcn6ZSEy7pIVzS4nLYhY8z';
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${driveFileId}`;
+    
+    // Open in new tab to trigger download
+    window.open(downloadUrl, '_blank');
+  };
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -37,7 +46,12 @@ const Home = () => {
                 </Button>
               </Link>
               
-              <Button variant="outline" size="lg" className="px-8 py-6 text-lg">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="px-8 py-6 text-lg"
+                onClick={handleResumeDownload}
+              >
                 <Download className="mr-2 w-5 h-5" />
                 Download Resume
               </Button>
