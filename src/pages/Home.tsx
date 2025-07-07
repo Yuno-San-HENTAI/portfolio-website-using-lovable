@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowRight, Download, MapPin, Phone, Mail } from 'lucide-react';
+import { ArrowRight, Download, MapPin, Phone, Mail, Github } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -56,6 +56,17 @@ const Home = () => {
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 <span>harshitpanchal060@gmail.com</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Github className="w-4 h-4" />
+                <a 
+                  href="https://github.com/Yuno-San-HENTAI" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  GitHub Profile
+                </a>
               </div>
             </div>
           </div>

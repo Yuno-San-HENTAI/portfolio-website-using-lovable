@@ -171,9 +171,15 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-4 pt-4">
-                  <Button variant="outline" className="flex items-center">
-                    <Github className="w-4 h-4 mr-2" />
-                    View Code
+                  <Button variant="outline" className="flex items-center" asChild>
+                    <a 
+                      href="https://github.com/Yuno-San-HENTAI" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="w-4 h-4 mr-2" />
+                      View Code
+                    </a>
                   </Button>
                   <Button variant="outline" className="flex items-center">
                     <ExternalLink className="w-4 h-4 mr-2" />

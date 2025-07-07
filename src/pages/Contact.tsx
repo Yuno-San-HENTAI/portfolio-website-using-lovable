@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -39,6 +39,17 @@ const Contact = () => {
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-5 h-5 text-primary" />
                     <span>Kota, Rajasthan, India</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Github className="w-5 h-5 text-primary" />
+                    <a 
+                      href="https://github.com/Yuno-San-HENTAI" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      github.com/Yuno-San-HENTAI
+                    </a>
                   </div>
                 </div>
               </CardContent>
